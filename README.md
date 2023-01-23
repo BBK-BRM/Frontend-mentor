@@ -1,2 +1,2 @@
 # Fronted-mentor
-Practice with frontendmwntor.io
+Practice with frontendmentor.io
