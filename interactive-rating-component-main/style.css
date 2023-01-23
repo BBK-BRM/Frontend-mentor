@@ -1,0 +1,97 @@
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+div{
+    background:linear-gradient(180deg,hsl(213, 19%, 18%), hsl(216, 12%, 12%));
+    width: 20rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: grid;
+}
+.star{
+    background-color: hsl(217, 12%, 30%);
+    padding: 1rem;
+    border-radius: 50%;
+}
+h1{
+    color:hsl(0, 0%, 100%);
+}
+p{
+    margin-top: .5rem;
+    color:hsl(217, 12%, 63%);
+}
+.value{
+    margin: .6rem;
+    padding: .5rem 1rem;
+    border-radius: 50%;
+    background-color: hsl(217, 12%, 30%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.select{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
+}
+
+span:hover{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+button{
+    border: none;
+    border-radius: 24rem;
+    padding: 1rem .5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    background-color:hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%) ;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+/* thankyou-state */
+.tqsvg{
+    justify-self: center;
+}
+#rating-display{
+    background-color: hsl(217, 12%, 23%) ;
+    padding: .5rem 1rem;
+    border-radius: 24rem;
+    color: hsl(25, 97%, 53%);
+    margin-top: 2rem;
+    width: fit-content;
+    justify-self: center;
+}
+.tqh{
+    margin-top: .5rem;
+    justify-self: center;
+}
+.tqp{
+    margin-top: 0;
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+
+.attribution { 
+    padding: 1rem;
+    font-size: 11px;
+    text-align: center; 
+    color: hsl(217, 12%, 63%);
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
